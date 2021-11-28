@@ -1,0 +1,97 @@
+.arrivals{
+    min-height: 60vh;
+    
+}
+
+
+.arrivals_header{
+    font-family: 'Interstate Light';
+    position: relative;
+    left: 100px;
+    margin: 20px 0;
+    font-weight: 100;
+}
+
+.arrivals_container{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+.arrivals_box{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 05px;
+    height: 320px;
+    width: fit-content;
+    box-shadow: 0 2px 6px  0 hsla(0, 0, 0, 0.8);
+    position: relative;
+
+}
+
+.arrivals_box:hover {
+    border: 1px solid #EAEAEA;
+}
+.arrivals_box:hover .quick_details{
+    display: flex;
+}
+.box_img{
+    height: 200px;
+    margin: 5px;
+}
+
+.quick_details{
+    background-color: #fafafa;
+    height: 35px;
+    padding:  0 25px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    display: none;
+    transition: .5s ease-in-out;
+
+}
+
+.box_header , .box_price{
+    font-family: 'Interstate Light';
+    font-size: 16px;
+    padding: 05px 10px;
+    font-weight: 100;
+    cursor: pointer;
+
+
+}
+
+.box_price{
+    font-family: 'Devil Breeze Light';
+
+}
+
+
+
+.box_icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.box_icon{
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: #EAEAEA ;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

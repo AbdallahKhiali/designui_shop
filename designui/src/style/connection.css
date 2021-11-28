@@ -1,0 +1,123 @@
+.connection{
+    background-color: #141414;
+    min-height: 100vh;
+    height: fit-content;
+    max-height: 120vh;
+    display: flex;
+}
+.connection_bg{
+    background-image: url('../assets/1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-top: 25px;
+}
+.login_header{
+    font-family: 'Devil Breeze Light';
+    color: navajowhite;
+    font-size: 5rem;
+    width: 350px;
+}
+.login_form{
+    width: 350px;
+}
+.login_form_box{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+.login_label{
+    color: navajowhite ;
+    font-family: 'Interstate ExtraLightComp';
+    font-size: 1.2em;
+    padding: 10px 0 ;
+}
+
+.login_input{
+    height: 45px ;
+    outline:none;
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid #fff;
+    color: grey;
+    font-family: 'Helvetica Neue';
+    margin: 5px 0;
+    font-size: 1rem;
+
+}
+.singup_form_button{
+    height: 45px;
+    background-color: navajowhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Interstate ExtraLightComp';
+    cursor: pointer;
+}
+.form_changer{
+    color: #fff;
+    font-family: 'Helvetica Neue';
+    margin: 10px ;
+
+}
+
+
+/*Login*/
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-top: 25px;
+}
+.login_header{
+    font-family: 'Devil Breeze Light';
+    color: navajowhite;
+    font-size: 5rem;
+    width: 350px;
+}
+.login_form{
+    width: 350px;
+}
+.login_form_box{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+.login_label{
+    color: navajowhite ;
+    font-family: 'Interstate ExtraLightComp';
+    font-size: 1.2em;
+    padding: 10px 0 ;
+}
+
+.login_input{
+    height: 45px ;
+    outline:none;
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid #fff;
+    color: grey;
+    font-family: 'Helvetica Neue';
+    margin: 5px 0;
+    font-size: 1rem;
+
+}
+.login_form_button{
+    height: 45px;
+    background-color: navajowhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Interstate ExtraLightComp';
+    cursor: pointer;
+}

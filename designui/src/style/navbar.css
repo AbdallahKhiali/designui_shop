@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Spartan:wght@200;400;500&display=swap');
+.navbar{
+    height: 10vh;
+    background-color: aliceblue;
+    background-color: black;
+    overflow: hidden;
+    border: 0;
+    box-shadow: 20 20px 60px 0 hsla(0, 0, 0, 0.2);
+}
+.nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_item{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_link{
+    margin: 0 15px;
+    font-family: 'Devil Breeze Light';
+    cursor: pointer;
+}
+.link_1{
+    font-size: 24px;
+    color: aliceblue;
+    margin: 0 25px;
+}
+.link_2{
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+}
+.link_3{
+    background-color: navajowhite;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 25px;
+    border-radius: 50px;
+    color: black;
+}

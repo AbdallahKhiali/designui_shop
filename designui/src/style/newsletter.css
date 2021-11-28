@@ -1,0 +1,52 @@
+.newsletter{
+    background-color: #141414;
+    min-height: 70vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.newsletter_content{
+    font-family: 'Interstate ExtraLightComp';
+
+}
+.newsletter_header{
+    font-size: 5rem;
+    padding: 10px 0;
+    color: navajowhite;
+}
+.newsletter_subheader{
+    font-size: 1.5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0;
+}
+
+label{
+    font-size: 20px;
+}
+.newsletter_input , .newsletter_button  {
+    height: 32px;
+    width: 350px;
+    margin: 10px 0;
+    font-weight: 100;
+    outline: none;
+    padding: 0 10px;
+    font-family: 'Helvetica Neue';
+
+}
+.newsletter_button{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: navajowhite;
+    cursor: pointer;
+    color: black;
+}
+.company_sign{
+    font-family: 'Devil Breeze Light';
+    font-size: 10rem;
+}
